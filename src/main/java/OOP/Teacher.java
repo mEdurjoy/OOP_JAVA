@@ -12,6 +12,12 @@ public class Teacher {
     String name, gender;
     int age;
     
+    void setinfo(String n, String g, int a){
+        name = n;
+        gender = g;
+        age = a;
+    }
+    
     
     //method without parameter
     void display(){
