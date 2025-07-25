@@ -8,9 +8,12 @@ public class Test {
                      teacher1.age=26;
                      teacher1.gender= "Male";
                      teacher1.name="Naimur Rahman Durjoy";
-        
-                     System.out.println("Name: "+teacher1.name);
-                     System.out.println("Name: "+teacher1.gender);
-                     System.out.println("Name: "+teacher1.age);
+                     teacher1.display();
+                     
+                     Teacher teacher2 = new Teacher();
+                     teacher2.age=20;
+                     teacher2.gender= "Male";
+                     teacher2.name="Tanim Hasan";
+                     teacher2.display();
     }
 }

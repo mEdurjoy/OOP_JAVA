@@ -12,4 +12,14 @@ public class Teacher {
     String name, gender;
     int age;
     
+    
+    //method without parameter
+    void display(){
+           System.out.println("Name: "+name);
+           System.out.println("Name: "+gender);
+           System.out.println("Name: "+age);
+                     
+           System.out.println("--------------------------");
+    }
+    
 }
