@@ -12,6 +12,13 @@ public class Teacher {
     String name, gender;
     int age;
     
+    
+    // constractor
+    Teacher(){
+        System.out.println("This is constractor. No need to call me. I am automaticly called when you create object");
+    }
+    
+    // method with parameter
     void setinfo(String n, String g, int a){
         name = n;
         gender = g;
