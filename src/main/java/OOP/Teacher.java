@@ -13,7 +13,7 @@ public class Teacher {
     int age;
     
     Teacher(){
-        System.out.println("---Default constractor---");
+        System.out.println("---No Information---");
     }
     // constractorn with parameters
     Teacher(String n, String g, int a){
