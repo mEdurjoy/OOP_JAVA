@@ -9,5 +9,7 @@ package OOP;
  * @author nrdna
  */
 public class Teacher {
+    String name, gender;
+    int age;
     
 }
